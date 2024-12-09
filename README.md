@@ -1,18 +1,64 @@
-## Getting Started
+Java Weather Application
+A simple weather application built using Java, JSwing for the GUI, and an external weather API to fetch real-time weather data.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Features
+Real-Time Weather Data: Fetches the latest weather information from a reliable weather API.
 
-## Folder Structure
+User-Friendly Interface: Designed with JSwing to provide an intuitive and responsive user experience.
 
-The workspace contains two folders by default, where:
+Customizable Location: Allows users to input their desired location to get the current weather conditions.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Technologies Used
+Java: Core programming language used to build the application.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+JSwing: Used for creating the graphical user interface.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Weather API: Integrated with a third-party API to fetch real-time weather data.
 
-## Dependency Management
+Installation
+Clone the Repository:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+bash
+git clone https://github.com/nishadOP/java-weather-application.git
+Navigate to the Project Directory:
+
+bash
+cd java-weather-application
+Compile the Code:
+
+bash
+javac Main.java
+Run the Application:
+
+bash
+java Main
+Usage
+Open the application.
+
+Enter the desired location in the input field.
+
+Click the "Get Weather" button to fetch and display the current weather information.
+
+Project Structure
+plaintext
+project-folder/
+│
+├── src/
+│   ├── Main.java
+│   ├── WeatherService.java
+│   ├── Gui.java
+│   └── utils/
+│       └── ApiHandler.java
+├── resources/
+│   ├── icons/
+│   │   └── weather-icon.png
+│   └── config/
+│       └── api-config.json
+└── README.md
+Contributing
+Feel free to fork the repository and submit pull requests. Contributions are welcome!
+
+License
+This project is licensed under the MIT License.
+
+Feel free to customize this README to better fit the specifics of your project! Let me know if there's anything else you need.
